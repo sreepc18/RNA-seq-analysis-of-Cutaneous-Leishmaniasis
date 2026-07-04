@@ -1,0 +1,28 @@
+# R configuration and objects
+.Rhistory
+.RData
+.Ruserdata
+.Rapp.history
+.Rproj.user/
+.Renviron
+
+# Raw Sequencing Data (Large Files)
+data/*.fastq
+data/*.fastq.gz
+data/*.fq
+data/*.fq.gz
+data/*.index
+
+# Large temporary outputs or logs
+results/mappedReads/
+results/fastqc/
+results/multiqc/
+results/kallisto/
+results/kallisto_log/
+*.log
+*.stderr
+*.stdout
+
+# Operating system text metadata
+.DS_Store
+Thumbs.db
